@@ -447,40 +447,67 @@ footer{
 /* RESPONSIVE */
 /* ============================= */
 
-@media(max-width:900px){
+@media (max-width: 768px){
 
-.home{
+    header{
+        flex-direction: column;
+        padding: 15px;
+    }
 
-flex-direction:column-reverse;
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
 
-text-align:center;
+    nav a{
+        margin: 0;
+        font-size: 18px;
+    }
 
-}
+    .home{
+        flex-direction: column-reverse;
+        text-align: center;
+        min-height: auto;
+        gap: 30px;
+        padding-top: 150px;
+    }
 
-header{
+    .content{
+        width: 100%;
+    }
 
-flex-direction:column;
+    .content h1{
+        font-size: 45px;
+    }
 
-}
+    .content h2{
+        font-size: 28px;
+    }
 
-nav{
+    .content h3{
+        font-size: 22px;
+    }
 
-margin-top:20px;
+    .profile img{
+        width: 250px;
+        height: 250px;
+    }
 
-}
+    .button{
+        justify-content: center;
+    }
 
-.image img{
+    .social{
+        justify-content: center;
+        display: flex;
+    }
 
-width:280px;
-
-height:280px;
-
-}
-
-.content h1{
-
-font-size:45px;
-
+    section{
+        padding:50px 8%;
+    }
 }
 
 }
