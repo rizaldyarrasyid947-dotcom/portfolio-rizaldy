@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizaldy Arrasyid | Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--================ NAVBAR ================-->
+
+<header>
+
+    <a href="#" class="logo">
+        <span>RZL</span>
+    </a>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<!--================ HOME ================-->
+
+<section class="home" id="home">
+
+<div class="content">
+
+<p class="hello">👋 Hello, I'm</p>
+
+<h1>Rizaldy <span>Arrasyid</span></h1>
+
+<h3>Information Systems Student</h3>
+
+<h2>Future Data Analyst</h2>
+
+<p>
+
+Mahasiswa Sistem Informasi UIN Raden Fatah Palembang
+yang memiliki minat pada Data Analyst,
+Website Development dan Teknologi Informasi.
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+<div class="button">
+
+<a href="#">Download CV</a>
+
+<a href="#">My Projects</a>
+
+<a href="#contact">Contact Me</a>
+
+</div>
+
+</div>
+
+<div class="profile">
+    <img src="profile.jpeg" alt="Profile">
+</div>
+</div>
+
+</section>
+
+<!--================ ABOUT ================-->
+
+<section class="about" id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+Saya adalah mahasiswa Sistem Informasi
+yang sedang menyelesaikan skripsi mengenai
+Analisis Kualitas Layanan SIMPEG menggunakan
+model E-SERVQUAL.
+
+Saya memiliki ketertarikan pada Data Analyst,
+UI/UX, Website Development dan Teknologi Informasi.
+
+</p>
+
+</section>
+
+<!--================ EDUCATION ================-->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3>UIN Raden Fatah Palembang</h3>
+
+<p>Sistem Informasi</p>
+
+<p>2021 - Sekarang</p>
+
+</div>
+
+</section>
+
+<!--================ EXPERIENCE ================-->
+
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="card">
+
+<h3>Magang</h3>
+
+<p>Kementerian Agama Kabupaten PALI</p>
+
+<p>Bagian Penyelenggaraan Haji</p>
+
+</div>
+
+</section>
+
+<!--================ SKILLS ================-->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skill">
+
+HTML
+
+<div class="bar">
+<div class="fill html"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+CSS
+
+<div class="bar">
+<div class="fill css"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+JavaScript
+
+<div class="bar">
+<div class="fill js"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+PHP
+
+<div class="bar">
+<div class="fill php"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+MySQL
+
+<div class="bar">
+<div class="fill mysql"></div>
+</div>
+
+</div>
+
+</section>
+
+<!--================ PROJECT ================-->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<img src="images/project1.jpg">
+
+<h3>Website TaniKu</h3>
+
+<p>Website Informasi Pertanian Modern.</p>
+
+</div>
+
+<div class="project">
+
+<img src="images/project2.jpg">
+
+<h3>Sistem Informasi Tamu</h3>
+
+<p>Analisis dan Perancangan Sistem.</p>
+
+</div>
+
+<div class="project">
+
+<img src="images/project3.jpg">
+
+<h3>Budidaya Ikan Nila</h3>
+
+<p>Kolam Terpal Sistem RAS.</p>
+
+</div>
+
+</section>
+
+<!--================ CONTACT ================-->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<form>
+
+<input type="text" placeholder="Nama">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Pesan"></textarea>
+
+<button>Kirim</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Rizaldy Arrasyid</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
