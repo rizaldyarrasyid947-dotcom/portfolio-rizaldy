@@ -1,0 +1,485 @@
+/* ============================= */
+/* GOOGLE FONT */
+/* ============================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+}
+
+section{
+    padding:20px 10%;
+}
+
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 10%;
+
+    background:#111827;
+
+    z-index:999;
+
+}
+
+.logo{
+
+    color:#00bfff;
+
+    text-decoration:none;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+.logo span{
+
+    color:white;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-left:30px;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#00bfff;
+
+}
+
+/* ============================= */
+/* HOME */
+/* ============================= */
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    gap: 70px;
+}
+
+.content{
+    flex: 1;
+}
+
+.hello{
+    color: #00bfff;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.content h1 span{
+    color: #00bfff;
+}
+
+.content h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content h2{
+    color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* ============================= */
+/* BUTTON */
+/* ============================= */
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px auto 0;
+}
+.button a{
+
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:40px;
+
+    background:#00bfff;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.button a:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 0 20px #00bfff;
+
+}
+
+/* ============================= */
+/* SOCIAL */
+/* ============================= */
+
+.social{
+
+    margin-bottom:30px;
+
+}
+
+.social a{
+
+    color:white;
+
+    font-size:24px;
+
+    margin-right:20px;
+
+    transition:.3s;
+
+}
+
+.social a:hover{
+
+    color:#00bfff;
+
+}
+
+/* ============================= */
+/* FOTO */
+/* ============================= */
+
+.profile{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #00bfff;
+    box-shadow: 0 0 30px #00bfff;
+}
+/* ============================= */
+/* ABOUT */
+/* ============================= */
+
+.about{
+
+    text-align:center;
+
+}
+
+.about h2{
+
+    font-size:40px;
+
+    margin-bottom:30px;
+
+}
+
+.about p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    line-height:2;
+
+    color:#ccc;
+
+}
+
+/* ============================= */
+/* CARD */
+/* ============================= */
+
+.card{
+
+    background:#161b22;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    margin-top:30px;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 20px #00bfff;
+
+}
+
+/* ============================= */
+/* SKILL */
+/* ============================= */
+
+.skill{
+
+    margin:30px 0;
+
+}
+
+.bar{
+
+    width:100%;
+
+    height:12px;
+
+    background:#333;
+
+    border-radius:50px;
+
+    margin-top:10px;
+
+}
+
+.fill{
+
+    height:12px;
+
+    background:#00bfff;
+
+    border-radius:50px;
+
+}
+
+.html{
+
+    width:90%;
+
+}
+
+.css{
+
+    width:85%;
+
+}
+
+.js{
+
+    width:75%;
+
+}
+
+.php{
+
+    width:70%;
+
+}
+
+.mysql{
+
+    width:80%;
+
+}
+
+/* ============================= */
+/* PROJECT */
+/* ============================= */
+
+.project{
+
+    background:#161b22;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    margin-top:30px;
+
+    transition:.3s;
+
+}
+
+.project:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px #00bfff;
+
+}
+
+.project img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+
+}
+
+/* ============================= */
+/* CONTACT */
+/* ============================= */
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+input,
+
+textarea{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#1d2633;
+
+    color:white;
+
+}
+
+button{
+
+    padding:15px;
+
+    background:#00bfff;
+
+    border:none;
+
+    color:white;
+
+    cursor:pointer;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+}
+
+button:hover{
+
+    box-shadow:0 0 20px #00bfff;
+
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer{
+
+    padding:30px;
+
+    text-align:center;
+
+    background:#111827;
+
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media(max-width:900px){
+
+.home{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+margin-top:20px;
+
+}
+
+.image img{
+
+width:280px;
+
+height:280px;
+
+}
+
+.content h1{
+
+font-size:45px;
+
+}
+
+}
