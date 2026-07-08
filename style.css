@@ -91,11 +91,12 @@ nav a:hover{
 /* ============================= */
 
 .home{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    gap: 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:auto;
+    padding-top:120px;
+    gap:70px;
 }
 
 .content{
